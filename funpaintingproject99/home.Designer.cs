@@ -100,6 +100,7 @@
             this.label4.Size = new System.Drawing.Size(60, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Back";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // home
             // 
