@@ -16,5 +16,14 @@ namespace funpaintingproject99
         {
             InitializeComponent();
         }
+
+       
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            medievalera medievalera = new medievalera();
+            medievalera.Show();
+            this.Hide();
+        }
     }
 }

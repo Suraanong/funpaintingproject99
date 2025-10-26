@@ -17,7 +17,12 @@ namespace funpaintingproject99
             InitializeComponent();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
