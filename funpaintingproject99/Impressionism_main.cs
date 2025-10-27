@@ -55,6 +55,37 @@ namespace funpaintingproject99
             con_main.Show();  // ✅ เปิดฟอร์มใหม่
             this.Hide();     // ✅ ซ่อนฟอร์มปัจจุบัน// ✅ ซ่อนฟอร์มปัจจุบัน (ถ้าต้องการ)
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Impressionism_1 Im_1 = new Impressionism_1();  // ✅ ใช้ new
+            Im_1.Show();  // ✅ เปิดฟอร์มใหม่
+            this.Hide();     // ✅ ซ่อนฟอร์มปัจจุบัน
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Impressionism_2 Im_2 = new Impressionism_2();
+            Im_2.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Impressionism_3 Im_3 = new Impressionism_3();
+            Im_3.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

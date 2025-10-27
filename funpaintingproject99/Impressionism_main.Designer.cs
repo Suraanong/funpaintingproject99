@@ -66,7 +66,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label2.Location = new System.Drawing.Point(268, 31);
+            this.label2.Location = new System.Drawing.Point(270, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(253, 41);
             this.label2.TabIndex = 2;
@@ -76,51 +76,55 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Maroon;
-            this.label4.Location = new System.Drawing.Point(70, 110);
+            this.label4.Location = new System.Drawing.Point(117, 106);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(677, 32);
+            this.label4.Size = new System.Drawing.Size(560, 45);
             this.label4.TabIndex = 4;
             this.label4.Text = resources.GetString("label4.Text");
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(94, 154);
+            this.pictureBox1.Location = new System.Drawing.Point(94, 167);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 147);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 148);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(315, 154);
+            this.pictureBox2.Location = new System.Drawing.Point(315, 164);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(155, 147);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(548, 154);
+            this.pictureBox3.Location = new System.Drawing.Point(547, 164);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(155, 147);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Edwardian Script ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Maroon;
-            this.label5.Location = new System.Drawing.Point(331, 304);
+            this.label5.Location = new System.Drawing.Point(329, 314);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(121, 25);
             this.label5.TabIndex = 8;
@@ -131,7 +135,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Edwardian Script ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Maroon;
-            this.label6.Location = new System.Drawing.Point(572, 304);
+            this.label6.Location = new System.Drawing.Point(572, 314);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 25);
             this.label6.TabIndex = 9;
@@ -142,11 +146,12 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Edwardian Script ITC", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Maroon;
-            this.label7.Location = new System.Drawing.Point(89, 304);
+            this.label7.Location = new System.Drawing.Point(89, 314);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(178, 25);
             this.label7.TabIndex = 10;
             this.label7.Text = "Bal du moulin de la Galette";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // button1
             // 
@@ -182,7 +187,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label8.Location = new System.Drawing.Point(133, 329);
+            this.label8.Location = new System.Drawing.Point(132, 339);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(73, 16);
             this.label8.TabIndex = 14;
@@ -194,7 +199,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label9.Location = new System.Drawing.Point(355, 329);
+            this.label9.Location = new System.Drawing.Point(353, 339);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(73, 16);
             this.label9.TabIndex = 15;
@@ -205,7 +210,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label10.Location = new System.Drawing.Point(594, 329);
+            this.label10.Location = new System.Drawing.Point(593, 339);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(73, 16);
             this.label10.TabIndex = 16;
@@ -216,7 +221,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Maroon;
-            this.label3.Location = new System.Drawing.Point(317, 84);
+            this.label3.Location = new System.Drawing.Point(317, 75);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(153, 16);
             this.label3.TabIndex = 3;

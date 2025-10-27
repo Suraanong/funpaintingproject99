@@ -52,6 +52,78 @@
     <Compile Include="Contemporary_art.Designer.cs">
       <DependentUpon>Contemporary_art.cs</DependentUpon>
     </Compile>
+    <Compile Include="Impressionism_3_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_3_3.Designer.cs">
+      <DependentUpon>Impressionism_3_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_3_2.Designer.cs">
+      <DependentUpon>Impressionism_3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_3_1.Designer.cs">
+      <DependentUpon>Impressionism_3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_2_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_2_3.Designer.cs">
+      <DependentUpon>Impressionism_2_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_2_2.Designer.cs">
+      <DependentUpon>Impressionism_2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_2_1.Designer.cs">
+      <DependentUpon>Impressionism_2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_1_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_1_1.Designer.cs">
+      <DependentUpon>Impressionism_1_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_1_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_1_3.Designer.cs">
+      <DependentUpon>Impressionism_1_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_1_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_1_2.Designer.cs">
+      <DependentUpon>Impressionism_1_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_3.Designer.cs">
+      <DependentUpon>Impressionism_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_2.Designer.cs">
+      <DependentUpon>Impressionism_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impressionism_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impressionism_1.Designer.cs">
+      <DependentUpon>Impressionism_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Neoclassical_3_3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +212,42 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Contemporary_art.resx">
       <DependentUpon>Contemporary_art.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_3_3.resx">
+      <DependentUpon>Impressionism_3_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_1_1.resx">
+      <DependentUpon>Impressionism_1_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_1.resx">
+      <DependentUpon>Impressionism_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_1_2.resx">
+      <DependentUpon>Impressionism_1_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_1_3.resx">
+      <DependentUpon>Impressionism_1_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_2.resx">
+      <DependentUpon>Impressionism_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_2_1.resx">
+      <DependentUpon>Impressionism_2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_2_2.resx">
+      <DependentUpon>Impressionism_2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_2_3.resx">
+      <DependentUpon>Impressionism_2_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_3.resx">
+      <DependentUpon>Impressionism_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_3_1.resx">
+      <DependentUpon>Impressionism_3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impressionism_3_2.resx">
+      <DependentUpon>Impressionism_3_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Neoclassical_2_1.resx">
       <DependentUpon>Neoclassical_2_1.cs</DependentUpon>
