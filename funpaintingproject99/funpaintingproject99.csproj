@@ -46,11 +46,83 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contemporary_art.cs">
+    <Compile Include="Contemporary_art_main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Contemporary_art.Designer.cs">
-      <DependentUpon>Contemporary_art.cs</DependentUpon>
+    <Compile Include="Contemporary_art_main.Designer.cs">
+      <DependentUpon>Contemporary_art_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_1.Designer.cs">
+      <DependentUpon>Contemporary_art_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_2.Designer.cs">
+      <DependentUpon>Contemporary_art_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_3.Designer.cs">
+      <DependentUpon>Contemporary_art_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_1_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_1_1.Designer.cs">
+      <DependentUpon>Contemporary_art_1_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_1_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_1_2.Designer.cs">
+      <DependentUpon>Contemporary_art_1_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_1_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_1_3.Designer.cs">
+      <DependentUpon>Contemporary_art_1_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_2_1.Designer.cs">
+      <DependentUpon>Contemporary_art_2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_2_2.Designer.cs">
+      <DependentUpon>Contemporary_art_2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_2_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_2_3.Designer.cs">
+      <DependentUpon>Contemporary_art_2_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_3_1.Designer.cs">
+      <DependentUpon>Contemporary_art_3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_3_2.Designer.cs">
+      <DependentUpon>Contemporary_art_3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contemporary_art_3_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contemporary_art_3_3.Designer.cs">
+      <DependentUpon>Contemporary_art_3_3.cs</DependentUpon>
     </Compile>
     <Compile Include="Impressionism_3_3.cs">
       <SubType>Form</SubType>
@@ -210,8 +282,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Contemporary_art.resx">
-      <DependentUpon>Contemporary_art.cs</DependentUpon>
+    <EmbeddedResource Include="Contemporary_art_1.resx">
+      <DependentUpon>Contemporary_art_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_1_1.resx">
+      <DependentUpon>Contemporary_art_1_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_1_2.resx">
+      <DependentUpon>Contemporary_art_1_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_1_3.resx">
+      <DependentUpon>Contemporary_art_1_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_2.resx">
+      <DependentUpon>Contemporary_art_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_2_1.resx">
+      <DependentUpon>Contemporary_art_2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_2_2.resx">
+      <DependentUpon>Contemporary_art_2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_2_3.resx">
+      <DependentUpon>Contemporary_art_2_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_3.resx">
+      <DependentUpon>Contemporary_art_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_3_1.resx">
+      <DependentUpon>Contemporary_art_3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_3_2.resx">
+      <DependentUpon>Contemporary_art_3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_3_3.resx">
+      <DependentUpon>Contemporary_art_3_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contemporary_art_main.resx">
+      <DependentUpon>Contemporary_art_main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Impressionism_3_3.resx">
       <DependentUpon>Impressionism_3_3.cs</DependentUpon>

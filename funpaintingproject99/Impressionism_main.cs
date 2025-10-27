@@ -51,7 +51,7 @@ namespace funpaintingproject99
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Contemporary_art con_main = new Contemporary_art();  // ✅ ใช้ new
+            Contemporary_art_main con_main = new Contemporary_art_main();  // ✅ ใช้ new
             con_main.Show();  // ✅ เปิดฟอร์มใหม่
             this.Hide();     // ✅ ซ่อนฟอร์มปัจจุบัน// ✅ ซ่อนฟอร์มปัจจุบัน (ถ้าต้องการ)
         }
