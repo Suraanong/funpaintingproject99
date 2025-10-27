@@ -46,11 +46,83 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contemporary_main.cs">
+    <Compile Include="Contemporary_art.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Contemporary_main.Designer.cs">
-      <DependentUpon>Contemporary_main.cs</DependentUpon>
+    <Compile Include="Contemporary_art.Designer.cs">
+      <DependentUpon>Contemporary_art.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_3_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_3_3.Designer.cs">
+      <DependentUpon>Neoclassical_3_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_3_2.Designer.cs">
+      <DependentUpon>Neoclassical_3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_3_1.Designer.cs">
+      <DependentUpon>Neoclassical_3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_2_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_2_3.Designer.cs">
+      <DependentUpon>Neoclassical_2_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_2_2.Designer.cs">
+      <DependentUpon>Neoclassical_2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_2_1.Designer.cs">
+      <DependentUpon>Neoclassical_2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_1_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_1_3.Designer.cs">
+      <DependentUpon>Neoclassical_1_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_1_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_1_2.Designer.cs">
+      <DependentUpon>Neoclassical_1_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_1_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_1_1.Designer.cs">
+      <DependentUpon>Neoclassical_1_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_3.Designer.cs">
+      <DependentUpon>Neoclassical_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_2.Designer.cs">
+      <DependentUpon>Neoclassical_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neoclassical_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neoclassical_1.Designer.cs">
+      <DependentUpon>Neoclassical_1.cs</DependentUpon>
     </Compile>
     <Compile Include="Impressionism_main.cs">
       <SubType>Form</SubType>
@@ -66,11 +138,47 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Contemporary_main.resx">
-      <DependentUpon>Contemporary_main.cs</DependentUpon>
+    <EmbeddedResource Include="Contemporary_art.resx">
+      <DependentUpon>Contemporary_art.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_2_1.resx">
+      <DependentUpon>Neoclassical_2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_1_1.resx">
+      <DependentUpon>Neoclassical_1_1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Impressionism_main.resx">
       <DependentUpon>Impressionism_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_1.resx">
+      <DependentUpon>Neoclassical_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_1_2.resx">
+      <DependentUpon>Neoclassical_1_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_1_3.resx">
+      <DependentUpon>Neoclassical_1_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_2.resx">
+      <DependentUpon>Neoclassical_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_2_2.resx">
+      <DependentUpon>Neoclassical_2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_2_3.resx">
+      <DependentUpon>Neoclassical_2_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_3.resx">
+      <DependentUpon>Neoclassical_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_3_1.resx">
+      <DependentUpon>Neoclassical_3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_3_2.resx">
+      <DependentUpon>Neoclassical_3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neoclassical_3_3.resx">
+      <DependentUpon>Neoclassical_3_3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Neoclassical_main.resx">
       <DependentUpon>Neoclassical_main.cs</DependentUpon>
