@@ -52,11 +52,11 @@
     <Compile Include="3homage.Designer.cs">
       <DependentUpon>3homage.cs</DependentUpon>
     </Compile>
-    <Compile Include="0home.cs">
+    <Compile Include="home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0home.Designer.cs">
-      <DependentUpon>0home.cs</DependentUpon>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
     </Compile>
     <Compile Include="2justinian.cs">
       <SubType>Form</SubType>
@@ -72,8 +72,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="0home.resx">
-      <DependentUpon>0home.cs</DependentUpon>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="2justinian.resx">
       <DependentUpon>2justinian.cs</DependentUpon>

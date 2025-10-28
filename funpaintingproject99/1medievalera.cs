@@ -40,5 +40,12 @@ namespace funpaintingproject99
               justinian.Show();
                 this.Hide();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            home home = new home();
+           home.Show();
+            this.Hide();
+        }
     }
 }
