@@ -64,6 +64,42 @@
     <Compile Include="5_authorities.Designer.cs">
       <DependentUpon>5_authorities.cs</DependentUpon>
     </Compile>
+    <Compile Include="6_the_lamentation_of_Christ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6_the_lamentation_of_Christ.Designer.cs">
+      <DependentUpon>6_the_lamentation_of_Christ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7_2_grief.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7_2_grief.Designer.cs">
+      <DependentUpon>7_2_grief.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7_1_grief.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7_1_grief.Designer.cs">
+      <DependentUpon>7_1_grief.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7_3_grief.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7_3_grief.Designer.cs">
+      <DependentUpon>7_3_grief.cs</DependentUpon>
+    </Compile>
+    <Compile Include="8_tragedy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="8_tragedy.Designer.cs">
+      <DependentUpon>8_tragedy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="9_senseofmovement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="9_senseofmovement.Designer.cs">
+      <DependentUpon>9_senseofmovement.cs</DependentUpon>
+    </Compile>
     <Compile Include="home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +125,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="4_tension.resx">
       <DependentUpon>4_tension.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5_authorities.resx">
+      <DependentUpon>5_authorities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6_the_lamentation_of_Christ.resx">
+      <DependentUpon>6_the_lamentation_of_Christ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7_1_grief.resx">
+      <DependentUpon>7_1_grief.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7_2_grief.resx">
+      <DependentUpon>7_2_grief.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7_3_grief.resx">
+      <DependentUpon>7_3_grief.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8_tragedy.resx">
+      <DependentUpon>8_tragedy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="9_senseofmovement.resx">
+      <DependentUpon>9_senseofmovement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="home.resx">
       <DependentUpon>home.cs</DependentUpon>

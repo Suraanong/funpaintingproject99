@@ -56,6 +56,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(294, 146);
             this.pictureBox2.Name = "pictureBox2";
@@ -63,6 +64,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -91,7 +93,7 @@
             this.label2.AutoEllipsis = true;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(83, 323);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(149, 30);
@@ -105,25 +107,26 @@
             this.label4.AutoEllipsis = true;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(309, 323);
+            this.label4.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(291, 323);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(149, 30);
+            this.label4.Size = new System.Drawing.Size(181, 15);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Emperor Justinian \r\nand Members of His Court";
+            this.label4.Text = "the lamentation of Christ, Giotto";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.AutoEllipsis = true;
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(527, 323);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(149, 30);
+            this.label5.Size = new System.Drawing.Size(167, 15);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Emperor Justinian \r\nand Members of His Court";
+            this.label5.Text = "The Little Garden of Paradise";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // linkLabel1

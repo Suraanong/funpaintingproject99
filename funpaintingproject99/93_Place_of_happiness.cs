@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace funpaintingproject99
 {
-    public partial class justinian : Form
+    public partial class _93_Place_of_happiness : Form
     {
-        public justinian()
+        public _93_Place_of_happiness()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            _1homage homage = new _1homage();
-            homage.Show();
-            this.Hide();
+
         }
     }
 }

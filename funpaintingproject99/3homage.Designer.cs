@@ -39,7 +39,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(43, 120);
+            this.pictureBox1.Location = new System.Drawing.Point(101, 118);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(227, 236);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -61,9 +61,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(298, 139);
+            this.label2.Location = new System.Drawing.Point(354, 118);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(490, 199);
+            this.label2.Size = new System.Drawing.Size(408, 199);
             this.label2.TabIndex = 2;
             this.label2.Text = "Justinian’s gesture of carrying the bowl with the bread of the Eucharist can be s" +
     "een as an act of homage to the True King who appears in the adjacent apse mosaic" +

@@ -16,5 +16,10 @@ namespace funpaintingproject99
         {
             InitializeComponent();
         }
+
+        private void _7_2_grief_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace funpaintingproject99
 {
-    public partial class justinian : Form
+    public partial class _91_protection : Form
     {
-        public justinian()
+        public _91_protection()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            _1homage homage = new _1homage();
-            homage.Show();
-            this.Hide();
         }
     }
 }

@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace funpaintingproject99
 {
-    public partial class justinian : Form
+    public partial class _91The_Little_Garden_of_Paradise : Form
     {
-        public justinian()
+        public _91The_Little_Garden_of_Paradise()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            _1homage homage = new _1homage();
-            homage.Show();
-            this.Hide();
         }
     }
 }
