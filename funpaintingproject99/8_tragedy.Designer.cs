@@ -41,20 +41,21 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label2.Location = new System.Drawing.Point(176, 276);
+            this.label2.Location = new System.Drawing.Point(153, 276);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(490, 199);
             this.label2.TabIndex = 24;
             this.label2.Text = "Christ is dead and has just been taken down from the cross.The dead tree in the u" +
     "pper right hand corner emphasizes the theme of death and grief in the painting.";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(239, 96);
+            this.pictureBox1.Location = new System.Drawing.Point(235, 96);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(174, 153);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -80,7 +81,7 @@
             this.label1.BackColor = System.Drawing.Color.DarkGray;
             this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(346, 18);
+            this.label1.Location = new System.Drawing.Point(324, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 30);
             this.label1.TabIndex = 21;
@@ -91,9 +92,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(419, 96);
+            this.pictureBox2.Location = new System.Drawing.Point(415, 96);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(174, 153);
+            this.pictureBox2.Size = new System.Drawing.Size(129, 153);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 25;
             this.pictureBox2.TabStop = false;

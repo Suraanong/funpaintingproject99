@@ -23,5 +23,10 @@ namespace funpaintingproject99
             justinian.Show();
             this.Hide();
         }
+
+        private void _1homage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

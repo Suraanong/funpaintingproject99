@@ -87,5 +87,12 @@ namespace funpaintingproject99
                 littleGarden.Show();    
             this.Hide();
         }
+
+        private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            renaissance_1 renaissance_1 = new renaissance_1();
+                renaissance_1.Show();
+            this.Hide();
+        }
     }
 }

@@ -39,14 +39,15 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label2.Location = new System.Drawing.Point(181, 275);
+            this.label2.Location = new System.Drawing.Point(171, 275);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(490, 110);
             this.label2.TabIndex = 28;
             this.label2.Text = "Above the scene, there are ten angels hovering above the scene. Some and mourning" +
     ", others simply hold their head in grief.";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox1
             // 

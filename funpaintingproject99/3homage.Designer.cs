@@ -97,6 +97,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "_1homage";
             this.Text = "_1homage";
+            this.Load += new System.EventHandler(this._1homage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
