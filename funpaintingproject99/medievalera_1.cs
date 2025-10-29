@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace funpaintingproject99
 {
-    public partial class medievalera : Form
+    public partial class medievalera_1 : Form
     {
         public medievalera()
         {
