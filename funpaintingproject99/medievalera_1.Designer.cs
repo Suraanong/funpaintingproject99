@@ -1,6 +1,6 @@
 ﻿namespace funpaintingproject99
 {
-    partial class medievalera
+    partial class medievalera_1
     {
         /// <summary>
         /// Required designer variable.
