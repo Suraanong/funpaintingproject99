@@ -16,5 +16,19 @@ namespace funpaintingproject99
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _91The_Little_Garden_of_Paradise littleGarden = new _91The_Little_Garden_of_Paradise();
+            littleGarden.Show();
+            this.Hide();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _911protection_2 protection2 = new _911protection_2();
+            protection2.Show();
+            this.Hide();
+        }
     }
 }

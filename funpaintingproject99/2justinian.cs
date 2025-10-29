@@ -23,5 +23,33 @@ namespace funpaintingproject99
             homage.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _4_tension tension = new _4_tension();
+            tension.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            _5_authorities authorities = new _5_authorities();
+            authorities.Show();
+            this.Hide();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            medievalera medievalera = new medievalera();
+            medievalera.Show();
+            this.Hide();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _6_the_lamentation_of_Christ lamentation = new _6_the_lamentation_of_Christ();
+            lamentation.Show();
+            this.Hide();
+        }
     }
 }

@@ -94,6 +94,42 @@
     <Compile Include="8_tragedy.Designer.cs">
       <DependentUpon>8_tragedy.cs</DependentUpon>
     </Compile>
+    <Compile Include="910The_Little_Garden_of_Paradise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="910The_Little_Garden_of_Paradise.Designer.cs">
+      <DependentUpon>910The_Little_Garden_of_Paradise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="911protection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="911protection.Designer.cs">
+      <DependentUpon>911protection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="911protection_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="911protection_2.Designer.cs">
+      <DependentUpon>911protection_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="92_Spiritual benefits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="92_Spiritual benefits.Designer.cs">
+      <DependentUpon>92_Spiritual benefits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="93_Place_of_happiness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="93_Place_of_happiness.Designer.cs">
+      <DependentUpon>93_Place_of_happiness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="93_renaissance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="93_renaissance.Designer.cs">
+      <DependentUpon>93_renaissance.cs</DependentUpon>
+    </Compile>
     <Compile Include="9_senseofmovement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +179,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="8_tragedy.resx">
       <DependentUpon>8_tragedy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="910The_Little_Garden_of_Paradise.resx">
+      <DependentUpon>910The_Little_Garden_of_Paradise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="911protection.resx">
+      <DependentUpon>911protection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="911protection_2.resx">
+      <DependentUpon>911protection_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="92_Spiritual benefits.resx">
+      <DependentUpon>92_Spiritual benefits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="93_Place_of_happiness.resx">
+      <DependentUpon>93_Place_of_happiness.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="93_renaissance.resx">
+      <DependentUpon>93_renaissance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="9_senseofmovement.resx">
       <DependentUpon>9_senseofmovement.cs</DependentUpon>

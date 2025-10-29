@@ -37,20 +37,22 @@
             // linkLabel1
             // 
             this.linkLabel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(12, 404);
+            this.linkLabel1.Location = new System.Drawing.Point(12, 414);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(74, 27);
             this.linkLabel1.TabIndex = 17;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Back";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(154, 123);
+            this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(155, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(490, 199);
             this.label2.TabIndex = 16;
@@ -61,12 +63,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Cornsilk;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(82, 28);
+            this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(174, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(616, 36);
+            this.label1.Size = new System.Drawing.Size(445, 60);
             this.label1.TabIndex = 15;
-            this.label1.Text = "religious, administrative, and military authority";
+            this.label1.Text = "religious, administrative, \r\nand military authority";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // _5_authorities

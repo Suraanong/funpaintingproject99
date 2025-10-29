@@ -16,5 +16,12 @@ namespace funpaintingproject99
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            justinian justinian = new justinian();
+            justinian.Show();
+            this.Hide();
+        }
     }
 }

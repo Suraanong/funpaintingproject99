@@ -21,5 +21,12 @@ namespace funpaintingproject99
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            medievalera medievalera = new medievalera();
+            medievalera.Show();
+            this.Hide();
+        }
     }
 }

@@ -16,5 +16,12 @@ namespace funpaintingproject99
         {
             InitializeComponent();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _7_2_grief _7_2_Grief = new _7_2_grief();
+            _7_2_Grief.Show();
+            this.Hide();
+        }
     }
 }

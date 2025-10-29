@@ -30,5 +30,18 @@ namespace funpaintingproject99
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            medievalera medievalera = new medievalera();
+            medievalera.Show();
+            this.Hide();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Application.Exit();
+
+        }
     }
 }

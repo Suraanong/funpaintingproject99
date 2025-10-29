@@ -57,15 +57,34 @@ namespace funpaintingproject99
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            _6_the_lamentation_of_Christ _6_thelamentaton_of_Christ = new _6_the_lamentation_of_Christ
+            _6_the_lamentation_of_Christ _6_thelamentaton_of_Christ = new _6_the_lamentation_of_Christ();
                 _6_thelamentaton_of_Christ.Show();
             this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-            _6_the_lamentation_of_Christ _6_thelamentaton_of_Christ = new _6_the_lamentation_of_Christ
+            _6_the_lamentation_of_Christ _6_thelamentaton_of_Christ = new _6_the_lamentation_of_Christ();
                 _6_thelamentaton_of_Christ.Show();
+            this.Hide();
+        }
+
+        private void medievalera_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            _91The_Little_Garden_of_Paradise littleGarden = new _91The_Little_Garden_of_Paradise();
+                littleGarden.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            _91The_Little_Garden_of_Paradise littleGarden = new _91The_Little_Garden_of_Paradise();
+                littleGarden.Show();    
             this.Hide();
         }
     }

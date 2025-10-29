@@ -39,8 +39,9 @@
             // linkLabel1
             // 
             this.linkLabel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(12, 402);
+            this.linkLabel1.Location = new System.Drawing.Point(12, 414);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(74, 27);
             this.linkLabel1.TabIndex = 13;
@@ -53,9 +54,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(288, 108);
+            this.label2.Location = new System.Drawing.Point(321, 127);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(490, 199);
+            this.label2.Size = new System.Drawing.Size(467, 199);
             this.label2.TabIndex = 12;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -63,10 +64,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Cornsilk;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(199, 18);
+            this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(193, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(427, 36);
+            this.label1.Size = new System.Drawing.Size(478, 30);
             this.label1.TabIndex = 11;
             this.label1.Text = "tension between the authorities";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -75,7 +76,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(43, 108);
+            this.pictureBox1.Location = new System.Drawing.Point(74, 127);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(227, 236);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

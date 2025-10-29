@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Working some two hundred years after Albertus, the Upper Rhenish Master realizes a painting that is designed for the pleasure of spectators, but is also intended to be the vector of spiritual benefits. According to the 13th-century theologian, a pleasurable and sacred garden should contain "pleasant flowers .. trees .. animal .. a spring set in stone .. for its purity .. source of spiritual delectation" for a pious spectator.</value>
+  </data>
 </root>

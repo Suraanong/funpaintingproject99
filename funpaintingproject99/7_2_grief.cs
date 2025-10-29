@@ -21,5 +21,21 @@ namespace funpaintingproject99
         {
 
         }
+
+        
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _7_3_grief _7_3_Grief = new _7_3_grief();
+            _7_3_Grief.Show();
+            this.Hide();
+        }
+
+        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            _7_grief _7_Grief = new _7_grief();
+            _7_Grief.Show();
+            this.Hide();
+        }
     }
 }

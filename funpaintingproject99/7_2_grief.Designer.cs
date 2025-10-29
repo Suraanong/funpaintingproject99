@@ -71,6 +71,7 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Back";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
             // label1
             // 
@@ -96,6 +97,7 @@
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Next->";
             this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // _7_2_grief
             // 
