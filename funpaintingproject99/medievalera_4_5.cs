@@ -26,7 +26,7 @@ namespace funpaintingproject99
         {
             _91The_Little_Garden_of_Paradise littleGarden = new _91The_Little_Garden_of_Paradise();
             littleGarden.Show();
-            this.Hide();
+            this.Hide(); 
         }
     }
 }
