@@ -51,5 +51,6 @@ namespace funpaintingproject99
             lamentation.Show();
             this.Hide();
         }
+
     }
 }

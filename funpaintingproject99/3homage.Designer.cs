@@ -52,7 +52,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(320, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 39);
+            this.label1.Size = new System.Drawing.Size(140, 39);
             this.label1.TabIndex = 1;
             this.label1.Text = "Homage";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
