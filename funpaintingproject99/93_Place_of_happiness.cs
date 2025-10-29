@@ -24,8 +24,8 @@ namespace funpaintingproject99
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            medievalera medievalera = new medievalera();
-            medievalera.Show();
+            _91The_Little_Garden_of_Paradise littleGarden = new _91The_Little_Garden_of_Paradise();
+            littleGarden.Show();
             this.Hide();
         }
     }

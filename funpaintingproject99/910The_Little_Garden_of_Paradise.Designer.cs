@@ -77,6 +77,7 @@
             this.button3.TabStop = false;
             this.button3.Text = "Place of happiness";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -88,6 +89,7 @@
             this.button2.TabStop = false;
             this.button2.Text = "Spiritual benefits";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -99,6 +101,7 @@
             this.button1.TabStop = false;
             this.button1.Text = "protection";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 

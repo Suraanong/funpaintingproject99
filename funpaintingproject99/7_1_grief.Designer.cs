@@ -61,6 +61,7 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Back";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label2
             // 
@@ -89,7 +90,7 @@
             // 
             this.linkLabel2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(714, 414);
+            this.linkLabel2.Location = new System.Drawing.Point(93, 414);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(74, 27);
             this.linkLabel2.TabIndex = 21;

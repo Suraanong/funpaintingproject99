@@ -48,6 +48,7 @@
             // linkLabel1
             // 
             this.linkLabel1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
             this.linkLabel1.Location = new System.Drawing.Point(12, 414);
             this.linkLabel1.Name = "linkLabel1";

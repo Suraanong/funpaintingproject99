@@ -90,7 +90,7 @@
             // 
             this.linkLabel2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(714, 410);
+            this.linkLabel2.Location = new System.Drawing.Point(102, 410);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(74, 27);
             this.linkLabel2.TabIndex = 25;

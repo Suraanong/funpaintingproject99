@@ -23,5 +23,26 @@ namespace funpaintingproject99
             medievalera.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            _91_protection _91_protection = new _91_protection();
+            _91_protection.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _92_Spiritual_benefits _92_Spiritual_benefits = new _92_Spiritual_benefits();
+            _92_Spiritual_benefits.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            _93_Place_of_happiness _93_Place_of_happiness = new _93_Place_of_happiness();
+            _93_Place_of_happiness.Show();
+            this.Hide();
+        }
     }
 }

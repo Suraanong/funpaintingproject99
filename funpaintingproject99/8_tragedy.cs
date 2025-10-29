@@ -24,8 +24,8 @@ namespace funpaintingproject99
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            medievalera medievalera = new medievalera();
-            medievalera.Show();
+            _6_the_lamentation_of_Christ _6_thelamentaton_of_Christ = new _6_the_lamentation_of_Christ();
+            _6_thelamentaton_of_Christ.Show();
             this.Hide();
         }
     }
