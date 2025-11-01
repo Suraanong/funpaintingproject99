@@ -398,6 +398,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Neoclassical_main.resx">
       <DependentUpon>Neoclassical_main.cs</DependentUpon>
+	</EmbeddedResource>
     <Compile Include="3homage.cs">
       <SubType>Form</SubType>
     </Compile>
