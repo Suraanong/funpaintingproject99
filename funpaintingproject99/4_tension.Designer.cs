@@ -54,9 +54,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(321, 127);
+            this.label2.Location = new System.Drawing.Point(130, 256);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(467, 199);
+            this.label2.Size = new System.Drawing.Size(592, 199);
             this.label2.TabIndex = 12;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -76,9 +76,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(74, 127);
+            this.pictureBox1.Location = new System.Drawing.Point(325, 64);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(227, 236);
+            this.pictureBox1.Size = new System.Drawing.Size(183, 178);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
