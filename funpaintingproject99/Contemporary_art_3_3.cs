@@ -23,5 +23,10 @@ namespace funpaintingproject99
             Con_3.Show();
             this.Hide();
         }
+
+        private void Contemporary_art_3_3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

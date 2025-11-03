@@ -86,6 +86,13 @@ namespace funpaintingproject99
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            home home = new home();
+            home.Show();
+            this.Hide();
+        }
     }
     }
 

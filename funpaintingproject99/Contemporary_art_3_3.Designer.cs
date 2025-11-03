@@ -82,6 +82,7 @@
             this.Controls.Add(this.label2);
             this.Name = "Contemporary_art_3_3";
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.Contemporary_art_3_3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

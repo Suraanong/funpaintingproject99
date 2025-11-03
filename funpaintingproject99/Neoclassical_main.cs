@@ -72,5 +72,19 @@ namespace funpaintingproject99
             Neo_33.Show();  // ✅ เปิดฟอร์มใหม่
             this.Hide();     // ✅ ซ่อนฟอร์มปัจจุบัน
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            home home = new home();
+            home.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            renaissance_1 renaissance_1 = new renaissance_1();
+            renaissance_1.Show();
+            this.Hide();
+        }
     }
 }

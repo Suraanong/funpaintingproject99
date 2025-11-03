@@ -51,5 +51,26 @@ namespace funpaintingproject99
             renaissance_4.Show();
             this.Hide();
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            home home = new home();
+            home.Show();
+            this.Hide();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Neoclassical_main Neo_main = new Neoclassical_main();  // ✅ ใช้ new
+            Neo_main.Show();  // ✅ เปิดฟอร์มใหม่
+            this.Hide();     // ✅ ซ่อนฟอร์มปัจจุบัน
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            medievalera medievalera = new medievalera();
+            medievalera.Show();
+            this.Hide();
+        }
     }
 }

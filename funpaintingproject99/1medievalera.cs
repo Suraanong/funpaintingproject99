@@ -94,5 +94,12 @@ namespace funpaintingproject99
                 renaissance_1.Show();
             this.Hide();
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            home home = new home();
+            home.Show();
+            this.Hide();
+        }
     }
 }
